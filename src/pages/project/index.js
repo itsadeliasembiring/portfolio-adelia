@@ -14,6 +14,7 @@ import {
   imgLaptop,
   boxProject,
 } from "./styles";
+import Colors from "../../theme/Color";
 // Import Data
 import projectData from "./data";
 
@@ -60,6 +61,7 @@ export default function Project() {
                 variant="contained"
                 className="btn"
                 href={data.linkProject}
+                disabled={data.linkProject === "#"}
                 sx={button}
               >
                 Visit Now!

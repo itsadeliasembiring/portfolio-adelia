@@ -68,10 +68,10 @@ export const imgLaptop = {
 export const button = {
   mt: 1.5,
   color: Colors.white,
-  backgroundColor: "lightgray",
+  backgroundColor: Colors.blue,
   borderRadius: 2,
   "&:hover": {
-    backgroundColor: "lightgray",
+    backgroundColor: Colors.blue,
   },
   minWidth: 130,
   height: 40,
