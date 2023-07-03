@@ -5,7 +5,7 @@ import techStacks from "../../assets/tech.png";
 
 export default function About() {
   const linkResume =
-    "https://docs.google.com/document/d/1Yp4Kb_dyuv7lX7etYuSc0Z1Fdm7IR0l-/edit?usp=sharing&ouid=108889228937929007579&rtpof=true&sd=true";
+    "https://drive.google.com/file/d/1PpVFW3iU9Vq06TdLI4ElbxXNmSh_JKDX/view?usp=sharing";
   return (
     <>
       <Box sx={containerAbout} data-aos="fade-down">
