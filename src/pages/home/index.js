@@ -100,7 +100,7 @@ export default function Home() {
               <Typography sx={title}>ADEL;A</Typography>
               <Typography sx={role}>Undergraduate Information System</Typography>
               <Typography sx={desc}>
-                Creating powerful & responsive web
+                Creating powerful & responsive web.
               </Typography>
 
               <Box
