@@ -98,9 +98,9 @@ export default function Home() {
               <Typography sx={greeting}>👋Hi, i'm</Typography>
 
               <Typography sx={title}>ADEL;A</Typography>
-              <Typography sx={role}>FULLSTACK WEB DEVELOPER</Typography>
+              <Typography sx={role}>Undergraduate Information System</Typography>
               <Typography sx={desc}>
-                Creating powerful & responsive web using various technologies.
+                Creating powerful & responsive web
               </Typography>
 
               <Box
