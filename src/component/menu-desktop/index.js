@@ -11,7 +11,8 @@ import Colors from "../../theme/Color";
 
 export default function MenuDekstop(props) {
   const resume =
-    "https://drive.google.com/file/d/1PpVFW3iU9Vq06TdLI4ElbxXNmSh_JKDX/view?usp=sharing";
+    "https://drive.google.com/file/d/1CXU1xtAMRWBWLUJpNTMGGmOJkNljjH_W/view?usp=sharing";
+    
   return (
     <>
       <Box sx={containerMenu}>
