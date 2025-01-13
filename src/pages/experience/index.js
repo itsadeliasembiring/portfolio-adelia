@@ -68,7 +68,7 @@ export default function Experience() {
               <Typography sx={desc} fontWeight={"bold"} mt={1}>
                 Job Description :
               </Typography>
-              {experienceData[0].jobdesc.map((sentence, index) => (
+              {data.jobdesc.map((sentence, index) => (
                 <Typography sx={desc} mb={0.3} key={index}>
                   {sentence}
                 </Typography>
