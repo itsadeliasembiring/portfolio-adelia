@@ -12,8 +12,8 @@ export default function About() {
         <Box sx={{ display: "block", pl: 4, pr: 3 }}>
           <Typography sx={title}>About Me</Typography>
 
-          <Typography sx={desc} mt={-1}>
-            Hi! I am a Full Stack Web Developer who loves to create powerful,
+          <Typography sx={desc} mt={1}>
+            Hi! I am a Front End Web Developer who loves to create powerful,
             responsive, and functional websites using various technologies.
           </Typography>
           <Box sx={img}>

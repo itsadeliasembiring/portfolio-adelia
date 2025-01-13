@@ -3,14 +3,20 @@ import Colors from "../../theme/Color";
 export const containerExperience = {
   width: "100%",
   height: "100%",
-  display: "block",
+};
+
+export const boxExperience = {
+  display: { sm: "flex", xs: "block" },
+  alignItems: { md: "center" },
+  justifyContent: { md: "center" },
+  mb: 4,
 };
 
 export const boxContent = {
   display: "block",
   pl: 4,
   pr: 4,
-  mb: 3,
+  width: { sm: "90%" },
 };
 
 export const title = {
@@ -23,28 +29,19 @@ export const title = {
   mt: { md: 3, sm: 4, xs: 3 },
 };
 
-export const experienceName = {
-  fontSize: { sm: 25, xs: 20 },
-  fontWeight: "bold",
-  fontFamily: "Poppins",
-  letterSpacing: 2,
-  color: Colors.darkGray,
-};
-
-export const category = {
-  fontSize: { xs: 16 },
-  fontFamily: "Poppins",
-  fontWeight: "bold",
-  letterSpacing: 1,
-  color: Colors.darkGray,
-  mb: 1,
-};
-
 export const desc = {
   color: Colors.black,
   fontSize: { xs: 16 },
   fontFamily: "Poppins",
-  lineHeight: 1.4,
+};
+
+export const imgLaptop = {
+  width: 650,
+  maxHeight: 500,
+  display: { xs: "none", sm: "block" },
+  pr: 4,
+  justifyContent: "left",
+  alignItems: "center",
 };
 
 export const button = {
@@ -61,4 +58,12 @@ export const button = {
   textTransform: "capitalize",
   textDecoration: "none",
   fontFamily: "Poppins",
+};
+
+export const experienceName = {
+  fontSize: { sm: 25, xs: 20 },
+  fontWeight: "bold",
+  fontFamily: "Poppins",
+  letterSpacing: 2,
+  color: Colors.darkGray,
 };

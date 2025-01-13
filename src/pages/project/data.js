@@ -1,4 +1,10 @@
 // Import Image
+import tedxunair1 from "../../assets/tedxunair-1.png";
+import tedxunair2 from "../../assets/tedxunair-2.png";
+import tedxunair3 from "../../assets/tedxunair-3.png";
+import isac1 from "../../assets/isac-1.png";
+import isac2 from "../../assets/isac-2.png";
+import isac3 from "../../assets/isac-3.png";
 import hadirku1 from "../../assets/hadirku-1.png";
 import hadirku2 from "../../assets/hadirku-2.png";
 import hadirku3 from "../../assets/hadirku-3.png";
@@ -17,10 +23,34 @@ import dojosertif3 from "../../assets/dojosertif3.png";
 const projectData = [
   {
     id: 1,
-    title: "01. HadirKu",
-    category: "Student & Teacher Attendance Information System",
+    title: "01. TEDxUniversitasAirlangga Website",
+    category: "Front End & Responsive Mobile - 2024",
     description:
-      "A attendance website for students and teachers to make the attendance process more effective and efficient, and prevent students from skipping classes.",
+      "As a part of Web Developer Volunteer, i created Open Student Speaker, Merch, Coming Soon, and FAQ page.",
+    tools: "Next.js & Tailwind CSS.",
+    previewOne: tedxunair1,
+    previewTwo: tedxunair2,
+    previewThree: tedxunair3,
+    linkProject: "https://tedxuniversitasairlangga.com/merch",
+  },
+  {
+    id: 2,
+    title: "02. UI/UX ISAC",
+    category: "UI - 2025",
+    description:
+      "I created competition and role admin page for the Information System Airlangga Competition (ISAC) website.",
+    tools: "Laravel, Tailwind CSS, MySQL, Figma.",
+    previewOne: isac1,
+    previewTwo: isac2,
+    previewThree: isac3,
+    linkProject: "#",
+  },
+  {
+    id: 3,
+    title: "03. HadirKu",
+    category: "Student & Teacher Attendance Information System (Final Project) - 2023",
+    description:
+      "An attendance website for students and teachers designed to make the attendance process more effective and efficient, and to prevent skipping classes.",
     tools: "Laravel, Tailwind CSS, MySQL, Figma.",
     previewOne: hadirku1,
     previewTwo: hadirku2,
@@ -28,9 +58,9 @@ const projectData = [
     linkProject: "#",
   },
   {
-    id: 2,
-    title: "02. Desain UI/UX",
-    category: "Role Admin LRT Jakarta AKDA",
+    id: 4,
+    title: "04. UI/UX Design Role Admin LRT Jakarta AKDA",
+    category: "Role Admin LRT Jakarta AKDA - 2022",
     description:
       "One of my internship tasks at PT Brilyan Trimatra Utama, with my partner i created design/mockup admin role LRT Jakarta AKDA.",
     tools: "Figma.",
@@ -40,9 +70,9 @@ const projectData = [
     linkProject: "#",
   },
   {
-    id: 3,
-    title: "03. Dojo Menu",
-    category: "Front End Responsive Mobile",
+    id: 5,
+    title: "05. Dojo Menu",
+    category: "Front End Responsive Mobile - 2022",
     description:
       "One of my internship tasks at PT Brilyan Trimatra Utama, i created mobile front-end website menu dojo to show detail about dojo.",
     tools: "React JS & Material UI.",
@@ -52,9 +82,9 @@ const projectData = [
     linkProject: "https://dojo-detail.vercel.app/",
   },
   {
-    id: 4,
-    title: "04. Dojo Register",
-    category: "Front End Responsive Mobile",
+    id: 6,
+    title: "06. Dojo Register",
+    category: "Front End Responsive Mobile - 2022",
     description:
       "One of my internship tasks at PT Brilyan Trimatra Utama, i created mobile front-end website register dojo to register new member dojo.",
     tools: "React JS & Material UI.",
@@ -64,9 +94,9 @@ const projectData = [
     linkProject: "https://form-register-dojo.vercel.app/",
   },
   {
-    id: 5,
-    title: "05. Dojo Certificate",
-    category: "Front End Responsive Mobile",
+    id: 7,
+    title: "07. Dojo Certificate",
+    category: "Front End Responsive Mobile - 2022",
     description:
       "One of my internship tasks at PT Brilyan Trimatra Utama, i created mobile front-end website certificate dojo to show detail and add new certificate dojo.",
     tools: "React JS & Material UI.",

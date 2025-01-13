@@ -14,7 +14,6 @@ import {
   imgLaptop,
   boxProject,
 } from "./styles";
-import Colors from "../../theme/Color";
 // Import Data
 import projectData from "./data";
 
@@ -31,6 +30,7 @@ export default function Project() {
               <Typography sx={projectName}>{data.title}</Typography>
 
               <Typography sx={category}>{data.category}</Typography>
+
               <Box sx={imgMobile}>
                 <Carousel
                   infiniteLoop={true}
@@ -50,9 +50,11 @@ export default function Project() {
                   </div>
                 </Carousel>
               </Box>
+
               <Typography sx={desc} mt={1}>
                 {data.description}
               </Typography>
+
               <Typography sx={desc} mt={1} fontWeight={"bold"}>
                 Tools :
               </Typography>
@@ -62,11 +64,13 @@ export default function Project() {
                 className="btn"
                 href={data.linkProject}
                 disabled={data.linkProject === "#"}
+                target="_blank"
                 sx={button}
               >
                 Visit Now!
               </Button>
             </Box>
+
             <Box sx={imgLaptop}>
               <Carousel
                 infiniteLoop={true}
