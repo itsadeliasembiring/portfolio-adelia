@@ -67,3 +67,8 @@ export const experienceName = {
   letterSpacing: 2,
   color: Colors.darkGray,
 };
+
+export const imgMobile = {
+  display: { xs: "block", sm: "none" },
+  mt:1
+};

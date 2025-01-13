@@ -39,7 +39,7 @@ const projectData = [
     category: "UI - 2025",
     description:
       "I created competition and role admin page for the Information System Airlangga Competition (ISAC) website.",
-    tools: "Laravel, Tailwind CSS, MySQL, Figma.",
+    tools: "Figma.",
     previewOne: isac1,
     previewTwo: isac2,
     previewThree: isac3,

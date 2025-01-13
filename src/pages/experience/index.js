@@ -10,7 +10,8 @@ import {
   button,
   imgLaptop,
   boxExperience,
-  experienceName
+  experienceName,
+  imgMobile
 } from "./styles";
 import TimerOutlinedIcon from "@mui/icons-material/TimerOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
@@ -42,6 +43,27 @@ export default function Experience() {
                 </Typography>
                 <Typography sx={desc}>| {data.category}</Typography>
               </Box>
+
+              <Box sx={imgMobile}>
+                              <Carousel
+                                infiniteLoop={true}
+                                showArrows={true}
+                                showThumbs={false}
+                                autoPlay={true}
+                                width={"100%"}
+                              >
+                                <div>
+                                  <img src={data.previewOne} />
+                                </div>
+                                <div>
+                                  <img src={data.previewTwo} />
+                                </div>
+                                <div>
+                                  <img src={data.previewThree} />
+                                </div>
+                              </Carousel>
+              </Box>
+
               {/* Jobdesc */}
               <Typography sx={desc} fontWeight={"bold"} mt={1}>
                 Job Description :
